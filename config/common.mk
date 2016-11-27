@@ -173,7 +173,7 @@ PRODUCT_PACKAGES += \
     WeatherProvider
 
 # Exchange support
-PRODUCT_PACKAGES += \
+# PRODUCT_PACKAGES += \
     Exchange2
 
 # Extra tools in CM
