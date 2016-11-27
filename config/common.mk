@@ -123,6 +123,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/config/permissions/com.cyanogenmod.android.xml:system/etc/permissions/com.cyanogenmod.android.xml
 
+# Add hosts StevenBlack @ https://github.com/StevenBlack/hosts
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/etc/hosts:system/etc/hosts
+
 # Include CM audio files
 include vendor/cm/config/cm_audio.mk
 
