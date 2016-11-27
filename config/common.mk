@@ -88,6 +88,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/otasigcheck.sh:install/bin/otasigcheck.sh
 
+# NexusLauncher
+ PRODUCT_COPY_FILES += \
+ PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/NexusLauncher/NexusLauncher.apk:system/app/NexusLauncher/NexusLauncher.apk
+
 # init.d support
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
@@ -160,12 +165,10 @@ PRODUCT_PACKAGES += \
     CyanogenSetupWizard \
     Eleven \
     ExactCalculator \
-    Launcher3 \
     LiveLockScreenService \
     LockClock \
     Screencast \
     SoundRecorder \
-    Trebuchet \
     WallpaperPicker \
     WeatherProvider
 
