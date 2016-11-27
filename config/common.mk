@@ -90,7 +90,6 @@ PRODUCT_COPY_FILES += \
 
 # NexusLauncher
  PRODUCT_COPY_FILES += \
- PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/NexusLauncher/NexusLauncher.apk:system/app/NexusLauncher/NexusLauncher.apk
 
 # init.d support
